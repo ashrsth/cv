@@ -1,0 +1,74 @@
+body{
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+
+.header{
+	background-color: #F2F2F2;
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    width:100%;
+    z-index:100;
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+
+.main{
+	padding: 0 70px 0 70px;
+	margin: 0 70px 0 70px;
+	background-color: #fff;
+}
+
+.my-first-name{
+	display: inline;
+}
+
+.my-last-name{
+	display: inline;
+	color: red;
+}
+
+.header .image{
+	position: absolute;
+	right: 160px;
+	width: 120px;
+	height: 104.5px;
+	top: 0;
+}
+
+.my-contact span{
+	background-color: black;
+	color: white;
+}
+
+.content{
+	margin-top: 140px; 
+
+}
+
+.content h3{
+	color: red; 
+}
+
+.work-experience-details{
+	padding-left: 20px;
+
+}
+
+.work-experience-details p{
+	font-weight: bold;
+	line-height: 5px;
+}
+
+.date{
+	float: right;
+}
+
+.footer{
+	background-color: #f2f2f2;
+	
+
+}
