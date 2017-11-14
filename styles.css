@@ -4,7 +4,7 @@ body{
 
 
 .header{
-	background-color: #F2F2F2;
+	background-color: #dddbdb;
     position:fixed;
     top:0;
     left: 0;
@@ -13,7 +13,6 @@ body{
     z-index:100;
     padding-left: 45px;
     padding-right: 45px;
-
 }
 
 .main{
@@ -44,9 +43,18 @@ body{
 	color: white;
 }
 
+.pro-summary p{
+	padding-left: 20px;
+}
+
 .content{
 	margin-top: 140px; 
 
+}
+
+.content li:before, ul{
+	content: "• ";
+	list-style-type: none;
 }
 
 .content h3{
@@ -55,6 +63,7 @@ body{
 
 .work-experience-details{
 	padding-left: 20px;
+	line-height: 30px;
 
 }
 
@@ -67,8 +76,36 @@ body{
 	float: right;
 }
 
-.footer{
-	background-color: #f2f2f2;
-	
+.education p{
+	padding-left: 20px;
+	font-weight: bold;
+	line-height: 5px;
+}
 
+.education table{
+	width: 100%;
+}
+
+.skills ul{
+	columns: 2;
+	line-height: 30px;
+}
+
+.trainings{
+	line-height: 30px;
+}
+
+.references table{
+	width: 100%;
+	text-align: left;
+	line-height: 30px;
+}
+
+footer{
+	background-color: #dddbdb;
+}
+
+footer img{
+	width: 25px;
+	height: 25px;
 }
